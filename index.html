@@ -3,33 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #D8C99B;
+            color: #3c281d;
+        }
+
+        h2{
+            font-family: 'Merriweather', serif;
+            line-height: 0px;
+        }
+
+        h3{
+            font-family: 'Merriweather', serif;
+        }
+
+        p{
+            font-family: 'roboto', sans-serif;
+            font-weight: bold;
+        }
+
+        #perfil {
+            border-radius: 200px;
+        }
+
+        #sobre {
+            line-height: 40px;
+        }
+
+        #cidade {
+            text-decoration: underline;
+        }
+
+        .indice {
+            text-decoration: none;
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            color: black;
+        }
+
+        #skills {
+            line-height: 1;
+        }
+
+        li {
+            font-size: 19px;
+            font-family: 'roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
+<a class="indice" href="#sobre">Sobre mim</a></li> &nbsp
+<a class="indice" href="#skills">Skills</a></li> &nbsp
+<a class="indice" href="https://jogabilida.de/" target="_blank">Site favorito</a></li> &nbsp
+<a class="indice" href="https://github.com/iskandarzero" target="_blank">Github</a></li> &nbsp
+<a class="indice" href="https://www.linkedin.com/in/isaac-farias-23a543217/" target="_blank">linkedin</a></li> &nbsp
+<a class="indice" href="imagens/perfil.jpeg" target="_blank">Foto</a></li>
 
-<h1>Portfólio</h1>
-
-<img src="imagens/perfil.jpeg" width="300" alt="Foto minha de perfil">
+<center>
+<img id="perfil" src="imagens/perfil.jpeg" width="300" alt="Foto minha de perfil">
 
 <h2>Isaac Guilherme Lima Vieira Santana de Farias</h2>
 
-<ul><h2>Índice</h2>
-    <li><a href="#sobre">Sobre mim</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="https://jogabilida.de/" target="_blank">Site favorito</a></li>
-    <li><a href="https://github.com/iskandarzero" target="_blank">Github</a></li>
-    <li><a href="https://www.linkedin.com/in/isaac-farias-23a543217/" target="_blank">linkedin</a></li>
-    <li><a href="imagens/perfil.jpeg" target="_blank">Foto</a></li>
-</ul>
-
 <h3 id="sobre">Sobre mim</h3>
-<p>Tenho 22 anos e sou de Maringá - PR. <br> Os jogos me trouxeram pra programação, <br> me fazendo conhecer um amor pela àrea! <br> Hoje estudo <em>Desenvolvimento Web Full Stack</em> <br> na Trybe e pretendo fazer esse amor cada vez <br> mais presente no meu <strong>futuro!</strong></p>
 
-<ul><h3 id="skills">Skills</h3>
-    <li><strong>Phyton</strong></li>
-    <li>HTML</li>
-    <li>Git e Github</li>
-    <li>Bash</li>
+<p>Tenho 22 anos e sou de <strong id="cidade"> Maringá - PR.</strong> <br> Os jogos me trouxeram pra programação, <br>me fazendo conhecer um amor pela àrea!<br> Hoje estudo <em>Desenvolvimento Web Full Stack</em> <br> na Trybe e pretendo fazer esse amor <br> cada vez mais presente no meu <strong>futuro!</strong></p>
+</center>
+
+<ul id="skills"><h2>Skills</h3>
+    <li>Python <img src="http://peteletrica.uff.br/wp-content/uploads/sites/509/2021/09/Python-logo-notext.svg_.png" width="20"></li>
+    <li>HTML <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="20"></li>
+    <li>Git e Github <img src="https://miro.medium.com/max/383/1*co_1qORNdM0PI1nvCp7Iig.png" width="18"></li>
+    <li>Bash <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Gnu-bash-logo.svg/1200px-Gnu-bash-logo.svg.png" width="39"></li>
+    <li>GDscript <img src="https://plugins.jetbrains.com/files/13107/152916/icon/pluginIcon.svg" width="20"></li>
 </ul>
    
 </body>
